@@ -1,6 +1,15 @@
 # Lane-Detection
 Built a project that detects lanes in video/picture which is a key component for self driving cars.
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/52134872/97107907-08c4a800-16f0-11eb-8029-2a5a22c53189.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/52134872/97106629-f2ffb480-16e8-11eb-9f4f-9adf1082f9b9.gif)
+## How it works
+We can describe this process in a straightforward way. 
+
+- Detect the lane lines by looking at color contrast gradients in the image
+- fit a curve to the points that make the line
+- draw the red lines on top of the lane lines
+
+This is an algorithm that uses Canny Edge detection hough transformations and polynomial regression to determine the the edges of lines in order to perform lane detection
+
 
 
 ## Steps-
@@ -11,3 +20,8 @@ Built a project that detects lanes in video/picture which is a key component for
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/52134872/97106629-f2ffb480-16e8-11eb-9f4f-9adf1082f9b9.gif)
 
 Built this project in **python** language with the help of **OpenCv** library.
+### Requirements 
+- numpy
+- python3
+- opencv
+
