@@ -1,6 +1,6 @@
 # Lane-Detection
 Built a project that detects lanes in video/picture which is a key component for self driving cars.
-<p align="center"> ![ezgif com-gif-maker](https://user-images.githubusercontent.com/52134872/97106629-f2ffb480-16e8-11eb-9f4f-9adf1082f9b9.gif)</p>
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/52134872/97106629-f2ffb480-16e8-11eb-9f4f-9adf1082f9b9.gif)
 ## How it works
 We can describe this process in a straightforward way. 
 
